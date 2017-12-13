@@ -1,0 +1,246 @@
+﻿body 
+{ 
+
+
+margin:0px; 
+zoom: 65%; /*масштаб сторінки*/
+
+}
+
+
+
+
+input[name="status"], [name="prev" ],[ name="next" ] 
+	{
+
+    border-radius: 3px; 
+	font-size: 22px;
+	
+	color:black; 
+	background-color:#bac3c4; 
+	height: 40px;
+	width:50px;
+   
+   
+   
+    }
+						
+
+
+
+
+
+
+#main
+
+{
+	background-color:#d5eaea;
+	position:initial;   
+	margin:auto;  
+	align-content:center;   
+	text-align:center;   
+	display:inline-block;  
+	width:65%; 
+	margin-top:2%;  
+	margin-left:17.5%;
+	
+	
+ 
+}
+
+
+
+
+
+#menu
+{
+	
+    /*
+background-color:#ff0000;
+display:inline-block;  
+width:10%;   
+margin-top:4%;   
+border-left:solid;
+border-color:#a5c0c0;*/
+}
+
+
+
+
+#toTop
+ {
+
+width:40px;
+height:100%;
+
+opacity:100%;
+text-align:center;
+/*padding:200px;*/
+position:fixed;
+bottom:0px; /* отступ кнопки от нижнего края страницы*/
+top: 140px;
+left:1px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:35px;
+}
+
+
+
+
+  #toTop:hover{
+    background:#e5e5e5;
+   
+}
+
+
+
+.img
+{  
+width:90%;     
+margin-left:5%;
+}
+
+
+
+
+.topic
+{ 
+
+ background-color:ghostwhite; 
+ border:solid;
+ text-align:left;
+ border-color:darkgrey;
+ border-width:2px; /*ширина рамки*/
+ padding:30px; /*відступи всередині новин*/
+ margin:10px; /*відступи в контейнері зліва і справа*/
+ display:inline-block;
+ vertical-align: middle;
+ width:25%;
+ height:500px;
+}
+
+
+.title /*заголовок новини*/
+
+{font-size:160%;
+ font-family:'Bell MT';
+ font-weight:bold;
+ text-align:left;
+ border-color:black;
+border-width:10px; /*ширина рамки*/
+ padding:0px; /*відступи всередині новин*/
+ margin:2px; /*відступи в контейнері зліва і справа*/
+  margin-bottom:15px;
+ width:95%;
+}
+
+
+.sectionTitle
+{
+    
+text-align:left;
+ font-size:200%;
+ border-bottom:solid;
+  border-top:solid;  
+padding:1px;  
+padding-left:3%;
+  background-color:#d1e0e0; 
+  border-color:#a5c0c0; 
+  font-family:'Bree';
+font-weight: bolder;
+}
+
+
+
+.publisedDate
+{
+    
+color:#678889;  
+ font-size:17px; 
+ display:block;
+}
+
+
+.description
+{
+   font-size:140%; 
+text-align:center;
+    
+}
+
+
+.section 
+{
+	text-align:left;
+	font-size:40px;/* Шрифт назви категорії*/
+	border-bottom:solid;
+	border-top:solid;  
+	padding:4px;  
+	padding-left:3%;
+	background-color:#d1e0e0; 
+	border-color:#a5c0c0; 
+	font-family:'Bree';
+	font-weight: bolder;
+	
+
+    
+}
+
+hr
+{
+    color:darkgray;
+}
+
+
+
+A:link 
+{ 
+    text-decoration: none;
+  
+  color:black;
+} 
+
+A:visited 
+{
+    
+text-decoration: none;
+   
+ color:black;
+} 
+
+A:active 
+{
+  
+  text-decoration: none; 
+}
+
+
+A:hover 
+{
+    text-decoration:solid;
+
+
+  /**   background: linear-gradient(to top, rgba(169, 169, 169, 0.47), #ffffff);*/
+ 
+ background:#dee8e8;
+    font-variant:initial;
+
+} 
+
+.highlited
+{
+
+	text-align:left;
+	font-size:40px;/* Шрифт назви категорії*/
+	border-bottom:solid;
+	border-top:solid;  
+	padding:4px;  
+	padding-left:3%;
+	background-color:#76a2a2; 
+	border-color:#a5c0c0; 
+	font-family:'Bree';
+	font-weight: bolder;
+}

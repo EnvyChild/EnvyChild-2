@@ -1,0 +1,52 @@
+[
+	{
+		"source": "bbc-news",
+		"title": "BBC News",
+		"tagId": "BBC"
+	},
+	{
+		"source": "talksport",
+		"title": "Sport",
+		"tagId": "sport"
+	},
+	{
+		"source": "business-insider",
+		"title": "Buissnes",
+		"tagId": "BuissnesInsider"
+	},
+	{
+		"source": "ars-technica",
+		"title": "Technology",
+		"tagId": "technology"
+	},
+	{
+		"source": "independent",
+		"title": "Independent",
+		"tagId": "independent"
+	},
+	{
+		"source": "ign",
+		"title": "IGN",
+		"tagId": "IGN"
+	},
+	{
+		"source": "mtv-news",
+		"title": "MTV",
+		"tagId": "MTV"
+	},
+	{
+		"source": "news24",
+		"title": "News24",
+		"tagId": "News24"
+	},
+	{
+		"source": "recode",
+		"title": "Recode",
+		"tagId": "Recode"
+	},
+	{
+		"source": "the-wall-street-journal",
+		"title": "Wall Street Jornal",
+		"tagId": "WallStreet"
+	}
+]
